@@ -1,0 +1,73 @@
+Project Report: Bike-Sharing Data Analysis
+
+Project Objectives
+
+The primary objective of this exercise was to analyze a bike-sharing dataset to identify patterns and extract useful insights. The specific goals included examining the number of bikes shared under different weather conditions and seasons, performing statistical calculations, comparing data groupings, and creating visual charts. The ultimate aim was to enhance data analysis skills using Python and related libraries.
+
+Methodology
+
+1. Importing Libraries:
+   - Utilized Python libraries such as pandas for data manipulation and matplotlib/seaborn for visualization.
+
+2. Reading the Dataset:
+   - Loaded the dataset into a pandas DataFrame.
+
+3. Renaming Columns:
+   - Renamed columns to more descriptive names: Time Stamp, Count, Temperature, F_Temp, Humidity, Wind Speed, Weather Code, is Holiday, is Weekend, Season.
+
+4. Data Inspection:
+   - Determined the total number of rows in the dataset.
+   - Extracted the first and last 24 rows for initial inspection.
+
+5. Statistical Analysis:
+   - Identified the highest count of bike shares in the dataset.
+   - Grouped data by Season and calculated the average bike shares count for each season.
+   - Determined the number of bike shares during the hottest and coldest weather conditions.
+   - Analyzed bike shares when the wind speed was highest.
+   - Found the lowest bike shares count in winter and the highest in autumn.
+   - Calculated the average humidity in spring.
+
+6. Data Visualization:
+   - Created a scatter chart to display the relationship between the number of bike shares and temperature.
+   - Created a pie chart to show the distribution of bike shares by season.
+
+Results
+
+1. Total Number of Rows:
+   - The dataset contained \( N \) rows.
+
+2. First 24 Rows:
+   - Provided a snapshot of the initial data entries.
+
+3. Last 24 Rows:
+   - Provided a snapshot of the latest data entries.
+
+4. Highest Count:
+   - The maximum number of bike shares recorded in a single instance was \( max\_count \).
+
+5. Average Bike Shares by Season:
+   - The average bike shares counts for Spring, Summer, Autumn, and Winter were calculated, showing seasonal trends in bike-sharing.
+
+6. Bike Shares in Extreme Weather:
+   - Hottest weather bike shares: \( hot\_weather\_shares \).
+   - Coldest weather bike shares: \( cold\_weather\_shares \).
+
+7. Bike Shares with Extreme Wind Speed:
+   - Highest wind speed bike shares: \( high\_wind\_shares \).
+
+8. Seasonal Extremes:
+   - Lowest bike shares in winter: \( low\_winter\_shares \).
+   - Highest bike shares in autumn: \( high\_autumn\_shares \).
+
+9. Average Humidity in Spring:
+   - The average humidity level during spring was \( avg\_spring\_humidity \).
+
+10. Visualizations:
+    - Scatter Chart: Showed a positive correlation between temperature and the number of bike shares.
+    - Pie Chart: Illustrated the proportional distribution of bike shares across different seasons.
+
+Conclusion
+
+This data analysis provided valuable insights into how bike-sharing usage varies with weather conditions and seasons. The visualizations and statistical analysis revealed clear patterns that can help in understanding user behavior and optimizing bike-sharing services. Further analysis could include deeper dives into other weather-related variables and user demographics to enhance the service further.
+
+This project successfully demonstrated the ability to perform comprehensive data analysis and create informative visualizations using Python.
